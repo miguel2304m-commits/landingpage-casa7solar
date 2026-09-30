@@ -1,0 +1,172 @@
+{
+  "desktop": {
+    "before": [
+      {
+        "scene": "hero",
+        "draws": 2910,
+        "clears": 87,
+        "width": 878,
+        "height": 720
+      },
+      {
+        "scene": "house",
+        "draws": 61,
+        "clears": 8,
+        "width": 920,
+        "height": 543
+      }
+    ],
+    "after": [
+      {
+        "scene": "hero",
+        "draws": 5322,
+        "clears": 154,
+        "width": 878,
+        "height": 720
+      },
+      {
+        "scene": "house",
+        "draws": 61,
+        "clears": 8,
+        "width": 920,
+        "height": 543
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "text": "THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+      },
+      {
+        "type": "warning",
+        "text": "THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+      },
+      {
+        "type": "warning",
+        "text": "THREE.WebGLRenderer: WEBGL_lose_context extension not supported."
+      }
+    ]
+  },
+  "house": {
+    "before": [
+      {
+        "scene": "hero",
+        "draws": 5784,
+        "clears": 173,
+        "width": 878,
+        "height": 720
+      },
+      {
+        "scene": "house",
+        "draws": 2326,
+        "clears": 50,
+        "width": 920,
+        "height": 543
+      }
+    ],
+    "after": [
+      {
+        "scene": "hero",
+        "draws": 5784,
+        "clears": 173,
+        "width": 878,
+        "height": 720
+      },
+      {
+        "scene": "house",
+        "draws": 8566,
+        "clears": 146,
+        "width": 920,
+        "height": 543
+      }
+    ]
+  },
+  "offscreen": {
+    "before": [
+      {
+        "scene": "hero",
+        "draws": 5820,
+        "clears": 174,
+        "width": 878,
+        "height": 720
+      },
+      {
+        "scene": "house",
+        "draws": 9506,
+        "clears": 167,
+        "width": 920,
+        "height": 543
+      }
+    ],
+    "after": [
+      {
+        "scene": "hero",
+        "draws": 5820,
+        "clears": 174,
+        "width": 878,
+        "height": 720
+      },
+      {
+        "scene": "house",
+        "draws": 9506,
+        "clears": 167,
+        "width": 920,
+        "height": 543
+      }
+    ]
+  },
+  "contextLost": {
+    "heroCanvas": false,
+    "heroFallback": true
+  },
+  "reducedMotion": {
+    "before": [
+      {
+        "scene": "hero",
+        "draws": 66,
+        "clears": 8,
+        "width": 878,
+        "height": 720
+      },
+      {
+        "scene": "house",
+        "draws": 95,
+        "clears": 8,
+        "width": 920,
+        "height": 543
+      }
+    ],
+    "after": [
+      {
+        "scene": "hero",
+        "draws": 66,
+        "clears": 8,
+        "width": 878,
+        "height": 720
+      },
+      {
+        "scene": "house",
+        "draws": 95,
+        "clears": 8,
+        "width": 920,
+        "height": 543
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "text": "THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+      },
+      {
+        "type": "warning",
+        "text": "THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+      }
+    ]
+  },
+  "unsupported": {
+    "canvasCount": 0,
+    "heroSVG": true,
+    "houseSVG": true,
+    "warnings": []
+  }
+}
